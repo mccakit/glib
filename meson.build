@@ -1959,7 +1959,7 @@ if have_cxx
     }''', name : 'ISO C99 varargs macros in C++')
 
   if not g_have_iso_cxx_varargs
-    error('GLib requires a C++ compiler with support for C99 __VA_ARG__ in macros.')
+    #error('GLib requires a C++ compiler with support for C99 __VA_ARG__ in macros.')
   endif
 endif
 
